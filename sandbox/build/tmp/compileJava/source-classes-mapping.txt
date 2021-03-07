@@ -1,2 +1,2 @@
-MyFirstProgram.java
- MyFirstProgram
+ru/stqa/seamys/sandbox/MyFirstProgram.java
+ ru.stqa.seamys.sandbox.MyFirstProgram
