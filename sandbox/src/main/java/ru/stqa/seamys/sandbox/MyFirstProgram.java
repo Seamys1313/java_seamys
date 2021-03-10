@@ -1,29 +1,14 @@
 package ru.stqa.seamys.sandbox;
 
 public class MyFirstProgram {
-
     public static void main(String[] args) {
-        hello("world");
-        hello("user");
-        hello("Victory");
-
-        Square s = new Square(6);
-        s.l = 5;
-        System.out.println("Площадь квадрата со стороной " + s.l + "=" + s.area());
-
-        Rectangle s1 = new Rectangle(6,3);
-        s1.a = 2;
-        s1.b = 3;
-        System.out.println("Площадь прямоугольника со сторонами " + s1.a + " и " + s1.b + " = " + s1.area());
+        Point p1 = new Point(3,5);
+        Point p2 = new Point(6,7);
+        System.out.println("Расстояние между точками p1 и p2 " + " = " + distance(p1,p2) + " см");
     }
-
-    public static void hello(String somebody) {
-        System.out.println("Hello, " + somebody + "!");
-
+    public static double distance(Point p1,Point p2){
+        return Math.sqrt((p2.x - p1.x)*(p2.x - p1.x) + (p2.y - p1.y)*(p2.y - p1.y));
     }
-
-
-    }
-
+}
 
 
