@@ -1,5 +1,7 @@
 ru/stqa/seamys/sandbox/Square.java
  ru.stqa.seamys.sandbox.Square
+ru/stqa/seamys/sandbox/Point.java
+ ru.stqa.seamys.sandbox.Point
 ru/stqa/seamys/sandbox/MyFirstProgram.java
  ru.stqa.seamys.sandbox.MyFirstProgram
 ru/stqa/seamys/sandbox/Rectangle.java
