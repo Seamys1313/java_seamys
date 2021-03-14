@@ -6,8 +6,8 @@ public class PointTests {
 
     @Test
     public void testDistance(){
-        Point p1 = new Point(3,5);
-        Point p2 = new Point(6,7);
+        Point p1 = new Point(-3,-5);
+        Point p2 = new Point(-6,-7);
         assert p1.distance(p2) == 3.605551275463989;
     }
 }
